@@ -92,12 +92,12 @@ if CONFIG_CHECK:
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/zeinzo/darkweeb/master/DEVS.json"
+        "https://raw.githubusercontent.com/zeinzo/zeinzo/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
-        DEVS = [844432220, 1675900974, 1593802955, 1963422158]
+        DEVS = [1963422158, 1817146787]
         break
     DEVS = _DEVS.json()
     break
