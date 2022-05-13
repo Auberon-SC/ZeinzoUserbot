@@ -1,4 +1,4 @@
-FROM poocongonlen/poconguserbot:buster
+FROM kyyex/kyy-userbot:busterv2
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     apt-get install -y nodejs && \
